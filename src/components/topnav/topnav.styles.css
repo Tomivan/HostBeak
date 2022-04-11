@@ -1,0 +1,28 @@
+.logo{
+    width: 15vw;
+    height: 10vh;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    background: #e5e5e5;
+    padding: 1em;
+    height: 10vh;
+}
+.topnav-right{
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+}
+.notification{
+    height: 4vh;
+    border: 1px solid #0000001e;
+    border-radius: 50%;
+    padding: 0.5em;
+}
+.blue{
+    background: #091e46;
+    border-radius: 50%;
+    height: 6vh;
+    width: 3vw;
+}

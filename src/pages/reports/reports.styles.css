@@ -1,0 +1,40 @@
+.reports-section{
+    display: flex;
+    background: #e5e5e5;
+}
+.report-details{
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 1em;
+    margin-left: 8%;
+    width: 80vw;
+}
+.report{
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 3%;
+}
+.report-left{
+    display: flex;
+    width: 100%;
+}
+.report-left p{
+    margin-left: 3%;
+}
+.report-right{
+    width: 50%;
+}
+.view{
+    background: #3db0ff;
+    color: #ffffff;
+    height: 5vh;
+    width: 8vw;
+    border: none;
+    border-radius: 5px;
+}
+.report-right img{
+    margin: 3% 0 0 5%;
+    height: 2.5vh;
+}

@@ -1,0 +1,61 @@
+.bill{
+    display: flex;
+    background: #e5e5e5;
+}
+.add-bill{
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 1em;
+    margin-left: 8%;
+}
+.bill-top{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.add-bill input, .add-bill select{
+    height: 5vh;
+    border: 1px solid #c7cfd6;
+    margin-bottom: 5%;
+}
+label{
+    margin-bottom: 3%;
+}
+textarea{
+    height: 15vh;
+    border: 1px solid #c7cfd6;
+}
+.table{
+    margin-top: 5%;
+    border: 1px solid #c7cfd6;
+    padding: 1em;
+}
+.table input, .table-select{
+    margin-right: 2%;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3%;
+}
+.cancel{
+    background: #fff;
+    height: 5vh;
+    width: 5vw;
+    color: #667085;
+    border: 1px solid #667085;
+    border-radius: 5px;
+}
+.save{
+    background: #3db0ff;
+    color: #ffffff;
+    height: 5vh;
+    width: 5vw;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1%;
+}

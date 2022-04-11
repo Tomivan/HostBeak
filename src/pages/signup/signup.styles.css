@@ -1,0 +1,57 @@
+.signup{
+    display: flex;
+}
+.create-left img{
+    height: 99vh;
+    width: 44vw;
+}
+.create-left p {
+    margin: -33% 0 0 20%;
+    color: #ffffff;
+    font-size: 30px;
+}
+.create-right{
+    padding: 1em;
+    margin-left: 5%;
+    width: 45vw;
+}
+strong{
+    color: #272262;
+    font-size: 36px;
+}
+.form{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    display: flex;
+    margin-bottom: 5%;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 5%;
+}
+.form input{
+    border: none;
+    height: 8vh;
+    border-bottom: 2px solid #ebebeb;
+    margin-bottom: 5%;
+}
+.sign-up{
+    background: #3bd0ff;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    height: 8vh;
+}
+.sign-in{
+    margin-top: 3%;
+    text-align: center;
+}
+.signin-link{
+    color: #3bd0ff;
+    text-decoration: none;
+}
