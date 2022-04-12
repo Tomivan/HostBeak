@@ -1,3 +1,39 @@
-.sidenav{
-    width: 15vw;
+.nav{
+    width: 18vw;
+    margin-top: 3%;
+}
+.nav-icon{
+    height: 4vh;
+    padding-right: 0.5em;
+}
+.dropdown{
+    display: flex;
+}
+.dropdown-menu{
+    background: #efefef !important;
+    border: none !important;
+}
+.purchase{
+    background: #081494;
+    border-radius: 50%;
+    padding: 0.5em;
+    height: 6vh;
+}
+.nav-link{
+    color: #bfbfbf !important;
+}
+.link{
+    text-decoration: none;
+}
+.accept{
+    background: #081494;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    height: 5vh;
+    margin-left: 5%;
+}
+.accept-icon{
+    height: 3vh;
+    margin-right: 2%;
 }

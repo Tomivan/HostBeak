@@ -2,7 +2,7 @@
     display: flex;
 }
 .create-left img{
-    height: 99vh;
+    height: 97vh;
     width: 44vw;
 }
 .create-left p {
@@ -11,13 +11,13 @@
     font-size: 30px;
 }
 .create-right{
-    padding: 1em;
+    padding: 0.5em;
     margin-left: 5%;
     width: 45vw;
 }
 strong{
     color: #272262;
-    font-size: 36px;
+    font-size: 30px;
 }
 .form{
     margin-top: 5%;
@@ -36,7 +36,7 @@ strong{
 }
 .form input{
     border: none;
-    height: 8vh;
+    height: 5vh;
     border-bottom: 2px solid #ebebeb;
     margin-bottom: 5%;
 }
@@ -45,7 +45,7 @@ strong{
     border: none;
     border-radius: 8px;
     color: #ffffff;
-    height: 8vh;
+    height: 6vh;
 }
 .sign-in{
     margin-top: 3%;

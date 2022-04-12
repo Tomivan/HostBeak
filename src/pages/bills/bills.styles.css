@@ -1,12 +1,14 @@
 .bill{
     display: flex;
     background: #e5e5e5;
+    height: 90vh;
 }
 .add-bill{
     background: #ffffff;
     border-radius: 5px;
     padding: 1em;
-    margin-left: 8%;
+    margin-left: 3%;
+    width: 80vw;
 }
 .bill-top{
     display: flex;
@@ -29,13 +31,36 @@ textarea{
     height: 15vh;
     border: 1px solid #c7cfd6;
 }
-.table{
+table{
     margin-top: 5%;
     border: 1px solid #c7cfd6;
-    padding: 1em;
+    width: 100%;
 }
-.table input, .table-select{
-    margin-right: 2%;
+th, td {
+    padding: 0.3em;
+}
+.edit{
+    height: 3vh;
+    margin-left: 2%;
+}
+.item{
+    width: 10vw;
+}
+.expense{
+    width: 15vw;
+}
+.description{
+    width: 10vw;
+}
+.qty{
+    width: 3vw;
+}
+.price{
+    width: 7vw;
+}
+.tax{
+    display: flex;
+    margin-top: 3%;
 }
 .buttons{
     display: flex;

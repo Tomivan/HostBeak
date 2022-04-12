@@ -1,6 +1,6 @@
 .logo{
-    width: 15vw;
-    height: 10vh;
+    width: 12vw;
+    height: 8vh;
 }
 .topnav{
     display: flex;
@@ -15,7 +15,7 @@
     width: 15vw;
 }
 .notification{
-    height: 4vh;
+    height: 5vh;
     border: 1px solid #0000001e;
     border-radius: 50%;
     padding: 0.5em;

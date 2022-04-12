@@ -24,7 +24,7 @@ const Bills = () => {
                                 <options>USD - US Dollar</options>
                             </select>
                             <label>Upload Copy of Bill</label>
-                            <input type="upload" />
+                            <input type="text" placeholder="Upload File"/>
                         </div>
                         <div className="column">
                             <label>Date</label>
@@ -42,7 +42,7 @@ const Bills = () => {
                         </div>
                     </div>
                     <div className="bill-bottom">
-                        <table className="table">
+                        <table>
                             <thead>
                                 <tr>
                                     <th>Item</th>
@@ -58,20 +58,20 @@ const Bills = () => {
                             <tbody>
                                 <tr>
                                     <td>
-                                        <select>
+                                        <select className="item">
                                             <option>Choose</option>
                                         </select>
                                     </td>
                                     <td>
-                                        <select>
+                                        <select className="expense">
                                             <option>Choose</option>
                                         </select>
                                     </td>
-                                    <td><input type="text" /></td>
-                                    <td><input type="text" /></td>
-                                    <td><input type="text" /></td>
-                                    <td><input type="text" /><img src={Edit} alt="" className="edit"/></td>
-                                    <td><input type="text" />0.00</td>
+                                    <td><input type="text" className="desciption"/></td>
+                                    <td><input type="text" className="qty"/></td>
+                                    <td><input type="text" className="price"/></td>
+                                    <td className="tax"><input type="text" /><img src={Edit} alt="" className="edit"/></td>
+                                    <td>N0.00</td>
                                     <td><img src={Trash} alt="" className="trash"/></td>
                                 </tr>
                             </tbody>

@@ -6,15 +6,18 @@
     background: #ffffff;
     border-radius: 5px;
     padding: 1em;
-    margin-left: 8%;
+    margin-left: 3%;
     width: 80vw;
+}
+h2{
+    font-size: 24px !important;
 }
 .report{
     display: flex;
     justify-content: space-between;
-    height: 6vh;
+    height: 4vh;
     border-bottom: 1px solid #ebebeb;
-    margin-top: 3%;
+    margin-top: 2.5%;
 }
 .report-left{
     display: flex;
@@ -33,8 +36,10 @@
     width: 8vw;
     border: none;
     border-radius: 5px;
+    position: relative;
+    top: -50%;
 }
 .report-right img{
-    margin: 3% 0 0 5%;
+    margin: -5% 0 0 5%;
     height: 2.5vh;
 }
