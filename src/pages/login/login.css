@@ -1,0 +1,7 @@
+.login{
+    display: flex;
+}
+
+.login .create-right{
+    margin-top: 10%;
+}
